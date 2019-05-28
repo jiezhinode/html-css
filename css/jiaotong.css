@@ -1,0 +1,26 @@
+@charset "utf-8";
+.body{margin: 0;padding: 0;}
+.nav{
+	width: 100%;height: 112px;background-color: #101415;color: white;border-radius: 20px;
+}
+.nav-img1{position: absolute;left: 300px;top: 0;display: block;}
+.nav-img2{display: block;padding-top: 30px;position: absolute;top: 30px;left: 800px;}
+
+.nav span{font-size:34px;font-family: "Vivaldi","微软雅黑";position: absolute;left: 40px;top:20px ;}
+.nav-div{position: absolute;top: 53px;left: 850px;width: 6500px;height:50px;}
+.nav-div div{float: left;line-height: 50px;width: 100px;text-align: center;}
+.nav-div div a{font-size: 16px;font-family: "微软雅黑";color: white;text-decoration: none;line-height:50px;display: block;border-radius:10px;}
+.nav-div div a:hover{background-color:#196BA9;}
+
+.s{width: 600px;height: 200px;margin: 50px auto 0;font-size: 25px;text-indent: 2em;}
+.z{width: 600px;height: 200px;margin: 0 auto 0;font-size: 17px;text-indent: 2em;}
+
+.video{background-color: #000000;}
+.p{text-align: center;font-size: 25px;height: 100px;}
+.footer{width: 65%;margin: 50px auto 0;}
+.footer ul li{list-style-type: none;float:left;margin-right: 20px;border: 1px solid gray;height: 460px;width: 300px;}
+.footer ul li img{width: 300px;}
+.tou{font-size: 20px;margin-left: 20px;}
+.margin{margin-left: 20px;}
+.ma{color: forestgreen;margin-left: 20px;font-size: 18px;}
+.more{background-color:lawngreen;width: 120px;height: 30px;line-height: 30px;text-align: center;margin-left: 20px;color: white;}

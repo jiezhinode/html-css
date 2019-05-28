@@ -1,0 +1,103 @@
+@charset "utf-8";
+.body{margin: 0;padding: 0;}
+.nav{
+	width: 100%;height: 112px;background-color: #101415;color: white;
+}
+.nav-img1{position: absolute;left: 300px;top: 0;display: block;}
+.nav-img2{display: block;padding-top: 30px;position: absolute;top: 30px;left: 800px;}
+.a{display: block;padding-top: 10px;padding-left: 60px;}
+.nav span{font-size:34px;font-family: "Vivaldi","微软雅黑";}
+.nav-div{position: absolute;top: 53px;left: 850px;width: 500px;height:50px;}
+.nav-div div{position: relative;}
+.t{position: absolute;width: 60px;height: 100px;background-color:#196BA9;top:0px;opacity: 0;}
+.t:hover{opacity: 1;}
+.nav-div div{float: left;line-height: 50px;width: 100px;text-align: center;}
+.nav-div div a{font-size: 16px;font-family: "微软雅黑";color: white;text-decoration: none;line-height:50px;display: block;}
+.nav-div div:hover{background-color:#196BA9;}
+.foo{position: relative;width: 100%;height: 660px;background-image: url(../img/timg_02.gif);}
+.foo1{position: absolute;width: 33.33%;height: 300px;top:180px;left: 15px;
+animation-name:myfirst ;
+animation-duration: 20s;
+
+animation-iteration-count: infinite;
+animation-direction:alternate;}
+
+.foo2{position: absolute;width: 50%;height: 400px;top:130px;left: 375px;z-index: 2;
+animation-name:myfirst1 ;
+animation-duration: 20s;
+
+animation-iteration-count: infinite;
+animation-direction:alternate;}
+.foo3{position: absolute;width: 33.33%;height: 300px;top: 180px;left: 1000px;
+animation-name:myfirst2 ;
+animation-duration: 20s;
+
+animation-iteration-count: infinite;
+animation-direction:alternate;
+}
+.foo4{position: absolute;width: 33.33%;height: 300px;top:180px;left: 450px;z-index: 1;
+animation-name:myfirst3;
+animation-duration: 20s;
+
+animation-iteration-count: infinite;
+animation-direction:alternate;}
+
+
+@keyframes myfirst
+{
+0%   {position: absolute;width: 33.33%;height: 300px;top:180px;left: 15px;z-index: 2;opacity: 0.5;}
+ 
+25%  {position: absolute;width: 50%;height: 400px;top:130px;left: 375px;z-index: 3;opacity: 1;}
+
+50% {position: absolute;width: 33.33%;height: 300px;top: 180px;left: 1000px;z-index: 2;opacity: 0.5;}
+75%  {position: absolute;width: 33.33%;height: 300px;top:180px;left: 450px;z-index: 1;opacity: 0.5;}
+100% {position: absolute;width: 33.33%;height: 300px;top:180px;left: 15px;z-index: 2;opacity: 0.5;}
+
+}
+
+@keyframes myfirst1
+{
+0%   {position: absolute;width: 50%;height: 400px;top:130px;left: 375px;z-index: 3;opacity: 1;}
+ 
+25%  {position: absolute;width: 33.33%;height: 300px;top: 180px;left: 1000px;z-index: 2;opacity: 0.5;}
+
+50% {position: absolute;width: 33.33%;height: 300px;top:180px;left: 450px;z-index: 1;opacity: 0.5;}
+75%  {position: absolute;width: 33.33%;height: 300px;top:180px;left: 15px;z-index: 2;opacity: 0.5;}
+100% {position: absolute;width: 50%;height: 400px;top:130px;left: 375px;z-index: 3;opacity: 1;}
+
+}
+@keyframes myfirst2
+{
+0%   {position: absolute;width: 33.33%;height: 300px;top: 180px;left: 1000px;z-index: 2;opacity: 0.5;}
+ 
+25%  {position: absolute;width: 33.33%;height: 300px;top:180px;left: 450px;z-index: 1;opacity: 0.5;}
+
+50% {position: absolute;width: 33.33%;height: 300px;top:180px;left: 15px;z-index: 2;opacity: 0.5;}
+75%  {position: absolute;width: 50%;height: 400px;top:130px;left: 375px;z-index: 3;opacity: 1;}
+100% {position: absolute;width: 33.33%;height: 300px;top: 180px;left: 1000px;z-index: 2;opacity: 0.5;}
+
+}
+
+@keyframes myfirst3
+{
+0%   {position: absolute;width: 33.33%;height: 300px;top:180px;left: 450px;z-index: 1;opacity: 0.5;}
+ 
+25%  {position: absolute;width: 33.33%;height: 300px;top:180px;left: 15px;z-index: 2;opacity: 0.5;}
+
+50% {position: absolute;width: 50%;height: 400px;top:130px;left: 375px;z-index: 3;opacity: 1;}
+75%  {position: absolute;width: 33.33%;height: 300px;top: 180px;left: 1000px;z-index: 2;opacity: 0.5;}
+100% {position: absolute;width: 33.33%;height: 300px;top:180px;left: 450px;z-index: 1;opacity: 0.5;}
+
+}
+
+.div{width: 600px;height: 300pxpx;margin: 50px auto 0;font-size: 30px;}
+.div1{width: 1365px;height: 325px;margin: 40px auto 0;}
+.img1{width: 670px;height: 325px;}
+.img2{width: 325px;height: 325px;margin-left: 22px;}
+.img3{width: 325px;height: 325px;margin-right: 22px;}
+
+.z{width: 600px;margin: 50px auto 0;font-size: 20px;}
+.z1{text-align: center;font-size: 30px;}
+.z2{width: 800px;margin: 50px auto 0;color: deepskyblue;}
+.z3{width: 600px;margin: 50px auto 0;color: deepskyblue; }
+.z4{width: 100px;margin-left: 1000px;margin-top: 50px;color: #00BFFF;}

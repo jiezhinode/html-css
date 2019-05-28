@@ -1,0 +1,37 @@
+@charset "utf-8";
+.body{margin: 0;padding: 0;}
+.nav{
+	width: 100%;height: 112px;background-color: #101415;color: white;border-radius: 20px;
+}
+.nav-img1{position: absolute;left: 300px;top: 8px;display: block;}
+.nav-img2{display: block;padding-top: 30px;position: absolute;top: 30px;left: 800px;}
+
+.nav span{font-size:34px;font-family: "Vivaldi","微软雅黑";position: absolute;left: 40px;top:20px ;}
+.nav-div{position: absolute;top: 53px;left: 850px;width: 6500px;height:50px;}
+.nav-div div{float: left;line-height: 50px;width: 100px;text-align: center;}
+.nav-div div a{font-size: 16px;font-family: "微软雅黑";color: white;text-decoration: none;line-height:50px;display: block;border-radius:10px;}
+.nav-div div a:hover{background-color:#196BA9;}
+ 
+.t{position: relative;width: 100%;height: 560px;}
+.t img{position: absolute;width: 100%;height: 560px;}
+.t-div{ position: absolute;width: 300px;height: 90px;
+background:rgba(0,0,0,0.6);top: 500px;left: 600px;color: white;padding-left: 30px;padding-top: 30px;}
+.f{padding-top: 100px;margin: 0 auto;width: 400px;
+height: 100px;font-family: "微软雅黑";font-size: 44px;text-align: center;}
+.map{width: 100%;height: 600px;}
+.xin{height: 100px;font-size: 35px;text-align: center;line-height: 100px;color: red;}
+.section{}
+.section-div1{position: relative;width: 1210px;height: 300px;margin: 0 auto;}
+.section-div1 img{width: 600px;height: 300px;}
+.a{position: absolute;top: 0;left: 0;width: 600px;height: 300px;color: white;font-size: 25px;}
+.b{position: absolute;top: 0;left: 604px;width: 600px;height: 300px;color: white;font-size: 25px;}
+.c{position: absolute;top: 0;left: 0;background:rgba(0,0,0,0.5);width: 600px;height: 300px;opacity: 0;}
+.c:hover{opacity: 1;transition-duration:1s;}
+.c div{width: 500px;margin: 0 auto;color: white;margin-top:60px ;border: 2px solid white;height: 100px;padding-top:30px ;}
+.d{position: absolute;top: 0;left: 604px;background:rgba(0,0,0,0.5);width: 600px;height: 300px;opacity: 0;}
+.d:hover{opacity: 1;transition-duration:1s;}
+.d div{width: 500px;margin: 0 auto;color: white;margin-top:60px ;border: 2px solid white;height: 100px;padding-top:30px ;}
+ .address{height: 400px;width: 1000px;border-top: 2px solid deepskyblue;margin:100px auto  0;}
+ .address p{text-align: center;font-size: 30px;}
+ .flaot{float:left;width:293px;list-style-type: none;font-size: 20px;}
+.flaot li{color: #00BFFF;text-align: left;font-size: 16px;}
